@@ -11,4 +11,37 @@ body{
     font-family: Outfit;
     background-color: var(--Grayish_blue);
 }
+#container{
+    margin: 0% 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--White);
+
+}
+
+#QRcode{
+    margin: 29px;
+    /* size: auto; */
+    width: 80%;
+}
+
+.border-round{
+    border-radius: 10%;
+}
+
+span{
+    width: 80%;
+    justify-content: center;
+    text-align: center;
+    font-size: 15px;
+}
+
+.boldtext{
+    font-weight: 700;
+}
+
+.simpletext{
+    font-weight: 400;
+}
 
